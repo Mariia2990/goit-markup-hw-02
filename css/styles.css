@@ -49,6 +49,22 @@ body {
     background-color: #2E2F42;
   }
 
+  .button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    weight: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+    }
+
+  .button:hover {
+    background-color: #404BBF;
+  }
+
 .box {
    border-bottom: 1px solid #e7e9fc;
    width: 1440px;
@@ -64,6 +80,11 @@ body {
     text-decoration: none;
    
  }
+.contacts {
+
+}
+
+
 .contacts-link {
     font-weight: 400;
     line-height: 1.5;
@@ -71,6 +92,9 @@ body {
     color: #434455;
     list-style-type: none;
     text-decoration: none;
+}
+.contacts-link:hover {
+    color: #404bbf;
 }
 
 .menu-link{
@@ -82,6 +106,13 @@ body {
     text-decoration: none;
 }
 
+.menu-link:hover {
+    color: #404bbf;
+}
+
+.menu .menu-link .link-studio:active {
+    color: #404bbf;
+}
 .logo-link {
     font-weight: 700;
     font-size: 18px;
@@ -107,6 +138,8 @@ body {
     background-color: #4D5AE5;
       
  }
+
+
 
  .footer-box {
     width: 1440px;
