@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 1440px;
+    font-weight: 1440;
     font-size: 16px;
     color: #434455;
     line-height: 1,5;
@@ -11,7 +11,7 @@ body {
 }
 
 .page-tittle {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -20,16 +20,17 @@ body {
 }
 
 .section-tittle {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .tittle {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -39,7 +40,7 @@ body {
 
 .text {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -48,6 +49,10 @@ body {
 .club-list {
     background-color: #FFFFFF;
     list-style-type: none;
+}
+
+.club-list-item {
+    background-color: #ffffff;
 }
  
 .fonts {
@@ -58,7 +63,7 @@ body {
 .button {
     background-color: #4D5AE5;
     color: #FFFFFF;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -68,12 +73,11 @@ body {
 .button:hover {
     background-color: #404BBF;
   }
+
 .button:focus {
     background-color: #404BBF
  }
   
-
-
 .menu {
     font-weight: 500;
     line-height: 1.5;
@@ -83,19 +87,24 @@ body {
     text-decoration: none;
    
  }
+
+ 
 .contacts {
    background-color: #ffffff;
    font-style: normal;
+}
+
+.contacts-item {
    list-style-type: none;
    text-decoration: none;
 }
-
 
 .contacts-link {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .contacts-link:hover {
@@ -119,13 +128,10 @@ body {
     color: #404bbf;
 }
 
-.menu .menu-link .link-studio:focus {
+.menu .menu-link:focus {
     color: #404bbf;
 }
 
-.box {
- 
-  }
 
 .logo-link {
     font-family: "Raleway", sans-serif;
@@ -134,7 +140,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:  #4D5AE5
+    color: #4D5AE5;
     list-style-type: none;
     text-decoration: none;
 }
@@ -144,14 +150,10 @@ body {
 }
  
 
- .link:hover {
-    color: #404BBF;
- 
-}
+
 
  .button:focus {
     background-color: #4D5AE5;
-      
  }
 
 .section-fonts {
