@@ -22,7 +22,7 @@ body {
 .section-tittle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -132,7 +132,7 @@ body {
     color: #404bbf;
 }
 
-
+ 
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -146,14 +146,12 @@ body {
 }
 
 .box .logo-link .logo {
-    color:#2e2f42;;
-}
+    color:#2e2f42;
+    }
  
 
-
-
  .button:focus {
-    background-color: #4D5AE5;
+    background-color: #404BBF;
  }
 
 .section-fonts {
