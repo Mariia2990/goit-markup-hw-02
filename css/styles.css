@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 1440px;
     font-size: 16px;
     color: #2E2F42;
     line-height: 1,5;
@@ -10,16 +11,16 @@ body {
 }
 
 .page-tittle {
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .section-tittle {
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -27,7 +28,7 @@ body {
 }
 
 .tittle {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -35,7 +36,7 @@ body {
 
 
 .text {
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -47,14 +48,14 @@ body {
  
 .fonts {
     background-color: #2E2F42;
+    height: 600px;
   }
 
-  .button {
+.button {
     background-color: #4D5AE5;
     color: #FFFFFF;
-    weight: 169px;
+    font-weight: 169px;
     height: 56px;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -65,11 +66,6 @@ body {
     background-color: #404BBF;
   }
 
-.box {
-   border-bottom: 1px solid #e7e9fc;
-   width: 1440px;
-   height: 72px;
- }
 
 .menu {
     font-weight: 500;
@@ -81,7 +77,7 @@ body {
    
  }
 .contacts {
-
+ background-color: #ffffff;
 }
 
 
@@ -104,7 +100,7 @@ body {
     color: #2e2f42;
     list-style-type: none;
     text-decoration: none;
-}
+ }
 
 .menu-link:hover {
     color: #404bbf;
@@ -113,6 +109,13 @@ body {
 .menu .menu-link .link-studio:active {
     color: #404bbf;
 }
+
+.box {
+    border-bottom: 1px solid #e7e9fc;
+    height: 72px;
+
+  }
+
 .logo-link {
     font-weight: 700;
     font-size: 18px;
